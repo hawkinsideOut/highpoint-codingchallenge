@@ -1,15 +1,12 @@
-A simple Next.js application demonstrating paginated vies of the Met Museum of Art. When the app first loads, we fetches a list of objects and then, for each selected page, fetches the data for the corresponding object.
+A Next.js application demonstrating paginated views of the Met Museum of Art. When the app first loads, we fetches a list of objects and then, for each selected page, fetches the data for the corresponding object.
 
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)  
 - [Installation](#installation)  
-- [Project Structure](#project-structure)  
 - [Running in Development](#running-in-development)  
 - [Building for Production](#building-for-production)  
 - [API Endpoints](#api-endpoints)  
-- [Environment Variables](#environment-variables)  
-- [Notes](#notes)  
 
 ---
 
