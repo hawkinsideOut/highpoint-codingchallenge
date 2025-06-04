@@ -104,3 +104,8 @@ The application includes two simple API routes under `pages/api`:
      "accessionNumber": "1234"
    }
    ```
+
+   ## Notes
+
+   A few things I would have like to implement if I had enough time is caching, as well as a more fleshed out process to view images.
+   One thing I noticed about the API was that I was restricted to making singular API calls since the /objects route only returns objectIDs. If time permitted, I would've liked to implement an "items per page" feature, where I would limit the number of showable items to a certin number (let's say 12). In doing so, I would also limit the data that needs to be rendered (increasing performance speed). As far as caching, I would implement it to prevent re-fetching duplicate API calls. Once an entire page of 12 items is viewed, that data would be cached, so that if a user comes back to the same page, the data will already be readily available without the need for another expensive API call.
